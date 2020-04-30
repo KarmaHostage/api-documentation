@@ -1,12 +1,12 @@
 module.exports = {
   blogPostDir: 'posts', // The name of directory that contains your posts.
   lessonsDir: 'lessons', // The name of the directory that contains lessons or docs.
-  siteTitle: 'Cindercloud Rest Documentation', // Site title.
-  siteTitleAlt: 'The Blockchain SDK', // Alternative site title for SEO.
-  siteLogo: '/logos/cindercloud.png', // Logo used for SEO and manifest.
+  siteTitle: 'Karmahostage Rest Documentation', // Site title.
+  siteTitleAlt: 'Encryption As A Service', // Alternative site title for SEO.
+  siteLogo: '/logos/logo.png', // Logo used for SEO and manifest.
   siteUrl: 'https://ericwindmill.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: 'The Blockchain SDK', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'Encryption As A Service', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '1825356251115265', // FB Application ID for using app insights
   googleAnalyticsID: 'UA-97187183-2', // GA tracking ID.
@@ -21,21 +21,21 @@ module.exports = {
   userLinks: [
     {
       label: 'GitHub',
-      url: 'https://github.com/cindercloud',
+      url: 'https://github.com/karmahostage',
       iconClassName: 'fa fa-github'
     },
     {
       label: 'Twitter',
-      url: 'https://twitter.com/cindercloudapp',
+      url: 'https://twitter.com/karma_hostage',
       iconClassName: 'fa fa-twitter'
     },
     {
       label: 'Email',
-      url: 'mailto:info@cinder.cloud',
+      url: 'mailto:info@karmahostage.com',
       iconClassName: 'fa fa-envelope'
     }
   ],
-  copyright: 'Copyright © 2019. Cindercloud', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © 2020. Karmahostage', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#c62828', // Used for setting manifest and progress theme colors.
   backgroundColor: '#e0e012', // Used for setting manifest background color.
   // TODO: Move this literally anywhere better.

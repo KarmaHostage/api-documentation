@@ -26,88 +26,16 @@
       ]
     },
     {
-      "title": "Ethereum",
+      "title": "Applications",
       "chapters": [
         {
-          "title": "Account",
+          "title": "Management",
           "entries": [
             {
-              "entry": "./account/get_balance.md"
+              "entry": "./application/get_applications.md"
             },
             {
-              "entry": "./account/get_tokens.md"
-            },
-            {
-              "entry": "./account/get_nonce.md"
-            }
-          ]
-        },
-        {
-          "title": "Contract",
-          "entries": [
-            {
-              "entry": "./contract/listen_to_events.md"
-            },
-            {
-              "entry": "./contract/get_source.md"
-            },
-            {
-              "entry": "./contract/get_abi.md"
-            },
-            {
-              "entry": "./contract/read_contract.md"
-            },
-            {
-              "entry": "./contract/write_contract.md"
-            }
-          ]
-        },
-        {
-          "title": "Transaction",
-          "entries": [
-            {
-              "entry": "./transaction/get_transaction.md"
-            },
-            {
-              "entry": "./transaction/listen_pending_transaction.md"
-            },
-            {
-              "entry": "./transaction/push_transaction.md"
-            }
-          ]
-        },
-        {
-          "title": "Blocks",
-          "entries": [
-            {
-              "entry": "./block/get_block.md"
-            }
-          ]
-        },
-        {
-          "title": "ENS",
-          "entries": [
-            {
-              "entry": "./ens/resolve.md"
-            }
-          ]
-        },
-        {
-          "title": "ERC20",
-          "entries": [
-            {
-              "entry": "./erc20/balance_of.md"
-            },
-            {
-              "entry": "./erc20/listen_for_transfers.md"
-            }
-          ]
-        },
-        {
-          "title": "Tokens",
-          "entries": [
-            {
-              "entry": "./token/get_info.md"
+              "entry": "./application/get_single_application.md"
             }
           ]
         }

@@ -29,8 +29,9 @@ class Index extends React.Component {
 					</IndexHeadContainer>
 
 					<BodyContainer>
-						<h2 style={centerAlign}>Simple and Restful Blockchain API</h2>
-						<img src="/images/codepiece.gif" width="100%"  alt="code example"/>
+
+						<h2 style={centerAlign}>Simple And Secure Encryption Rest API</h2>
+						<img src="/images/bodyguard.ai.svg" width="100%"  alt="code example"/>
 					</BodyContainer>
 				</main>
 			</div>
