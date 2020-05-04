@@ -11,18 +11,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                sh './ci/build.sh'
             }
         }
-        stage('Test') {
+        stage('Build Docker') {
             steps {
-                sh './build.sh'
+                sh './ci/package.sh'
             }
         }
-        stage('Deliver') {
+        stage('Push Docker') {
             steps {
-                sh './package.sh'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)'
+                sh './ci/push.sh'
             }
         }
     }
